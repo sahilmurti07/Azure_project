@@ -73,9 +73,9 @@
 						"referenceName": "Json_dynamic",
 						"type": "DatasetReference",
 						"parameters": {
-							"folder": "bronze",
-							"file": "cdc",
-							"cdc": "cdc.json"
+							"container": "bronze",
+							"folder": "cdc",
+							"file": "cdc.json"
 						}
 					},
 					"firstRowOnly": false
