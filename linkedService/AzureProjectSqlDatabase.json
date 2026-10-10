@@ -1,0 +1,17 @@
+{
+	"name": "AzureProjectSqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sahilazureprojectserver.database.windows.net",
+			"database": "sahilazureprojectdb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sahiladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM1NzBFOTY0LUZERUEtNERGNS04M0YzLTEwNEY3ODY0RTIyNl85ODM1YzFhMi00MzhiLTRmMGYtYWQ2ZC1hZWZmMDgyZWE4N2UiDQp9"
+		}
+	}
+}
