@@ -147,7 +147,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@greater(activity('rawdataingestion').output.dataread,0)",
+						"value": "@greater(activity('rawdataingestion').output.dataRead,0)",
 						"type": "Expression"
 					},
 					"ifFalseActivities": [
