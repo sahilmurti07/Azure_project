@@ -131,7 +131,7 @@
 				}
 			},
 			{
-				"name": "updated_cdc",
+				"name": "max_cdc",
 				"type": "Script",
 				"dependsOn": [
 					{
@@ -156,9 +156,14 @@
 				"typeProperties": {
 					"scripts": [
 						{
+							"parameters": [
+								{
+									"value": ""
+								}
+							],
 							"type": "Query",
 							"text": {
-								"value": "select max(@{pipeline().parameters.cdc_col}) from @{pipeline().parameters.schema}.@{pipeline().parameters.table}",
+								"value": "select MAX(@{pipeline().parameters.cdc_col}) from \r\n@{pipeline().parameters.schema}.@{pipeline().parameters.table}",
 								"type": "Expression"
 							}
 						}
