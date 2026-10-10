@@ -46,7 +46,7 @@
 				]
 			},
 			{
-				"name": "Lookup1",
+				"name": "Lookup_cdc",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
