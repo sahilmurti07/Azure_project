@@ -1,0 +1,15 @@
+{
+	"name": "sahil-azureproject-datafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d4998d4a-53d5-45c1-b69d-1e1def74013b",
+		"tenantId": "74205458-4f28-458a-90da-bb019cbbe04b"
+	}
+}
