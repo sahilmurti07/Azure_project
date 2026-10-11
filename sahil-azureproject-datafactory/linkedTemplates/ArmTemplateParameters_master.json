@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sahil-azureproject-datafactory"
+		},
+		"AzureProjectSqlDatabase_password": {
+			"value": ""
+		},
+		"Azure_project_datalake_service_accountKey": {
+			"value": ""
+		},
+		"AzureProjectSqlDatabase_properties_typeProperties_server": {
+			"value": "sahilazureprojectserver.database.windows.net"
+		},
+		"AzureProjectSqlDatabase_properties_typeProperties_database": {
+			"value": "sahilazureprojectdb"
+		},
+		"AzureProjectSqlDatabase_properties_typeProperties_userName": {
+			"value": "sahiladmin"
+		},
+		"Azure_project_datalake_service_properties_typeProperties_url": {
+			"value": "https://sahilazureprojectstorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
